@@ -1,0 +1,46 @@
+#content {
+    position: fixed;
+    background-image: url("./images/background-pattern.png");
+    background-position: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: clamp(3rem, 5vw, 4rem);
+    background-color: rgba(255, 228, 196, 0.459);
+}
+
+body {
+    margin: 0;
+}
+
+.tab_bar {
+    width: 100vw;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 228, 196, 0.459);
+    border-top: none;
+}
+
+.tab_bar button {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20%;
+
+    border: 1px solid rgb(224, 204, 146);
+}
+
+.tab_bar button:hover {
+    background-color: bisque;
+}
+
+.tab_bar button.active {
+    background-color: rgb(204, 152, 88);
+}
